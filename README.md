@@ -1,4 +1,4 @@
-Public Class Form1
+    Public Class Form1
 
     Dim random As String = 1
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
@@ -343,9 +343,8 @@ Public Class Form1
                 hit()
             End If
         End If
-    End Sub
-   
-   Public Sub CheckIfComputerWins()
+    End Sub    
+    Public Sub CheckIfComputerWins()
         If Button1.Text = "O" And Button2.Text = "O" And Button3.Text = "O" _
         Or Button4.Text = "O" And Button5.Text = "O" And Button6.Text = "O" _
         Or Button7.Text = "O" And Button8.Text = "O" And Button9.Text = "O" _
@@ -403,8 +402,8 @@ Public Class Form1
         End If
     End Sub
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) _
-Handles Button9.Click, Button8.Click, Button7.Click, Button6.Click, _
-Button5.Click, Button4.Click, Button3.Click, Button2.Click, Button1.Click
+    Handles Button9.Click, Button8.Click, Button7.Click, Button6.Click, _
+    Button5.Click, Button4.Click, Button3.Click, Button2.Click, Button1.Click
         sender.Text = "X"
         sender.Enabled = False
         Timer1.Stop()
@@ -476,4 +475,4 @@ Button5.Click, Button4.Click, Button3.Click, Button2.Click, Button1.Click
         Button10.Enabled = True
         Timer1.Start()
     End Sub
-End Class
+    End Class
