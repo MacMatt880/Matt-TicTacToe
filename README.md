@@ -344,7 +344,8 @@ Public Class Form1
             End If
         End If
     End Sub
-    Public Sub CheckIfComputerWins()
+   
+   Public Sub CheckIfComputerWins()
         If Button1.Text = "O" And Button2.Text = "O" And Button3.Text = "O" _
         Or Button4.Text = "O" And Button5.Text = "O" And Button6.Text = "O" _
         Or Button7.Text = "O" And Button8.Text = "O" And Button9.Text = "O" _
